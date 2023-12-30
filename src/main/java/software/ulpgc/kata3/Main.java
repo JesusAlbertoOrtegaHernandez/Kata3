@@ -17,7 +17,7 @@ public class Main {
 
             @Override
             public double[] values() {
-                return new double[]{23, 54, 32, 14, 3, 2, 1, 8, 9, 10, 23, 97};
+                return new double[]{23, 54, 32, 14, 3, 2, 1, 8, 9, 10, 23, 99};
             }
         };
     }
