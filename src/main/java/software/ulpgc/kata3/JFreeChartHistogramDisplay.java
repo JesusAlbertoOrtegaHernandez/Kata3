@@ -14,7 +14,7 @@ public class JFreeChartHistogramDisplay extends JPanel implements HistogramDispl
     @Override
     public void show(Histogram provider) {
         JFreeChart histogram = ChartFactory.createHistogram("Histogram 2023", "ages", "", datasetWith(provider),
-        PlotOrientation.VERTICAL, true, false, false);
+        PlotOrientation.VERTICAL, false, false, false);
         add(new ChartPanel(histogram));
     }
 
